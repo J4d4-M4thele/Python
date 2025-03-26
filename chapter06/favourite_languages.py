@@ -1,11 +1,11 @@
 # dictionary of similar objects
-favorite_languages = {
-'jen': 'python',
-'sarah': 'c',
-'edward': 'rust',
-'phil': 'python',
-# 'erin': 'java'
-}
+# favorite_languages = {
+# 'jen': 'python',
+# 'sarah': 'c',
+# 'edward': 'rust',
+# 'phil': 'python',
+# # 'erin': 'java'
+# }
 
 # for name in sorted(favorite_languages.keys()):
 #     print(f"{name.title()}, thank you for taking the poll.")
@@ -33,18 +33,18 @@ favorite_languages = {
 #         print(f"\t{name.title()}, I see you love {language}!")
 
 #looping through all values 
-print("The following languages have been mentioned:")
-for language in set(favorite_languages.values()):
-    print(language.title())
+# print("The following languages have been mentioned:")
+# for language in set(favorite_languages.values()):
+#     print(language.title())
 
 # #lists inside of dictionaries
-# favorite_languages = {
-# 'jen': ['python', 'rust'],
-# 'sarah': ['c'],
-# 'edward': ['rust', 'go'],
-# 'phil': ['python', 'haskell'],
-# }
-# for name, languages in favorite_languages.items():
-#     print(f"\n{name.title()}'s favorite languages are:")
-#     for language in languages:
-#         print(f"\t{language.title()}")
+favorite_languages = {
+'jen': ['python', 'rust'],
+'sarah': ['c'],
+'edward': ['rust', 'go'],
+'phil': ['python', 'haskell'],
+}
+for name, languages in favorite_languages.items():
+    print(f"\n{name.title()}'s favorite languages are:")
+    for language in languages:
+        print(f"\t{language.title()}")
