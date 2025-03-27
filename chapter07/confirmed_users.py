@@ -10,6 +10,7 @@ while unconfirmed_users:
 
     print(f"Verifying user: {current_user.title()}")
     confirmed_users.append(current_user)
+    
 # Display all confirmed users.
 print("\nThe following users have been confirmed:")
 for confirmed_user in confirmed_users:
