@@ -9,11 +9,11 @@ class ElectricCar(Car):
 
         # accessing Battery class
         self.battery = Battery()
-
+        
     def fill_gas_tank():
         print("This car doesn't have a gas tank!")
 
-my_leaf = ElectricCar('nissan', 'leaf', 2024)
-print(my_leaf.get_descriptive_name())  
-my_leaf.battery.describe_battery()      
-my_leaf.battery.get_range()
+# my_leaf = ElectricCar('nissan', 'leaf', 2024)
+# print(my_leaf.get_descriptive_name())  
+# my_leaf.battery.describe_battery()     
+# my_leaf.battery.get_range()
