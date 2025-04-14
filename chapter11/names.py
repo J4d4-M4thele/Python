@@ -7,6 +7,6 @@ while True:
     last = input("Please give me a last name: ")
     if last == 'q':
         break
-    
-formatted_name = get_formatted_name(first, last)
-print(f"\tNeatly formatted name: {formatted_name}.")
+
+    formatted_name = get_formatted_name(first, last)
+    print(f"\tNeatly formatted name: {formatted_name}.")
