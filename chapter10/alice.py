@@ -1,12 +1,12 @@
 from pathlib import Path
 
 path = Path('alice.txt')
-contents = path.read_text(encoding='utf-8')
+# contents = path.read_text(encoding='utf-8')
 
 try:
     contents = path.read_text(encoding='utf-8')
 except FileNotFoundError:
-    print("Sorry, the file alice.txt doesn't exist.") 
+    print(f"Sorry, the file {path} doesn't exist.") 
 else:
     #Count approximate no. of words in file
     words = contents.split()
