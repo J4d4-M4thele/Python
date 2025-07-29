@@ -9,10 +9,10 @@
 # motorcycles.append('ducati')
 # print(motorcycles)
 
-motorcycles = []
-motorcycles.append('honda')
-motorcycles.append('yamaha')
-motorcycles.append('suzuki')
+# motorcycles = []
+# motorcycles.append('honda')
+# motorcycles.append('yamaha')
+# motorcycles.append('suzuki')
 # print(motorcycles)
 
 #inserting elements into list
@@ -27,7 +27,7 @@ motorcycles.append('suzuki')
 # print(motorcycles)
 
 #popping items from any position
-# popped_motorcycle = motorcycles.pop() #removes from the front by default
+# popped_motorcycle = motorcycles.pop() #removes from the back by default
 # print(motorcycles)
 # print(popped_motorcycle)
 
@@ -48,12 +48,12 @@ motorcycles.append('suzuki')
 # print(f"\nA {too_expensive.title()} is too expensive for me.")
 
 #index errors
-#---out of range error---
-# motorcycles = ['honda', 'yamaha', 'suzuki']
+# ---out of range error---
+motorcycles = ['honda', 'yamaha', 'suzuki']
 # print(motorcycles[3])
 
-# #---printing last item in list---
-# print(motorcycles[-1])
+#---printing last item in list---
+print(motorcycles[-1])
 
 motorcycles = []
 print(motorcycles[-1])

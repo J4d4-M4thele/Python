@@ -2,7 +2,7 @@
 cars = ['bmw', 'audi', 'toyota', 'subaru']
 # cars.sort()
 # print(cars)
-#or the other way
+# #or the other way
 # cars.sort(reverse=True)
 # print(cars)
 
@@ -21,5 +21,5 @@ cars = ['bmw', 'audi', 'toyota', 'subaru']
 # print(cars)
 
 #finding list length
-# cars = ['bmw', 'audi', 'toyota', 'subaru']
+cars = ['bmw', 'audi', 'toyota', 'subaru']
 print(len(cars))
