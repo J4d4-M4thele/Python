@@ -6,7 +6,7 @@ dimensions = (200, 50)
 #     print(d)
 
 #throws an error
-#dimensions[0] = 250 #values can't be changed
+# dimensions[0] = 250 #values can't be changed
 
 # #looping through all values in a tuple
 print("Original dimensions:")

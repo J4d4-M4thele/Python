@@ -8,7 +8,7 @@ friends_foods = my_foods[:] # copies list items
 # print(my_foods)
 
 #this doesn't work
-#friends_foods = my_foods
+# friends_foods = my_foods
 
 my_foods.append('cannoli')
 friends_foods.append('ice-cream')
