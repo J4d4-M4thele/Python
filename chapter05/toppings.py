@@ -26,7 +26,7 @@
 
 # print("\nFinished making your pizza!")
 
-# #checking that a list isn't empty
+#checking that a list isn't empty
 # requested_toppings = []
 
 # if requested_toppings:
