@@ -1,11 +1,11 @@
 # dictionary of similar objects
-# favorite_languages = {
-# 'jen': 'python',
-# 'sarah': 'c',
-# 'edward': 'rust',
-# 'phil': 'python',
-# # 'erin': 'java'
-# }
+favorite_languages = {
+'jen': 'python',
+'sarah': 'c',
+'edward': 'rust',
+'phil': 'python',
+# 'erin': 'java'
+}
 
 # for name in sorted(favorite_languages.keys()):
 #     print(f"{name.title()}, thank you for taking the poll.")
@@ -31,6 +31,10 @@
 #     if name in friends:
 #         language = favorite_languages[name].title()
 #         print(f"\t{name.title()}, I see you love {language}!")
+
+# keys in a particular order
+# for name in sorted(favorite_languages.keys()):
+#     print(f"{name.title()}, thank you for taking the poll.")
 
 #looping through all values 
 # print("The following languages have been mentioned:")

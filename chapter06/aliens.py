@@ -9,13 +9,13 @@
 
 #making an empty list to add dictionaries to
 aliens = []
-# Make 30 green aliens.
+# Make 30 green aliens. range goes from 0 to 29
 for alien_number in range(30):
     new_alien = {'color': 'green', 'points': 5, 'speed': 'slow'}
     aliens.append(new_alien)
 
 # print(aliens)    
-
+# index 0 - 2 (first 3 dictionaries)
 for alien in aliens[:3]:
     if alien['color'] == 'green':
         alien['color'] = 'yellow'
@@ -31,4 +31,4 @@ for alien in aliens[:5]:
     print(alien)
 print("...")
 # Show how many aliens have been created.
-print(f"Total number of aliens: {len(aliens)}")
+# print(f"Total number of aliens: {len(aliens)}")
