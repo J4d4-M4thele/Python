@@ -4,12 +4,12 @@
 #     print(f"My {animal_type}'s name is {pet_name.title()}.")
 
 # describe_pet("tortoise", "junior")    
-# # multiple functions
+# # # multiple functions
 # describe_pet("dog", "tyson")
 
-# # keyboard arguments
+# # keyword arguments
 # describe_pet(animal_type='tortoise', pet_name='junior')
-# describe_pet(animal_type='dog', pet_name='tyson')
+# describe_pet(pet_name='tyson', animal_type='dog')
 
 # # default values
 def describe_pet(pet_name, animal_type='dog'):
