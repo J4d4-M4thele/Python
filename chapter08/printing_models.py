@@ -1,9 +1,9 @@
-# # Start with some designs that need to be printed.
+# Start with some designs that need to be printed.
 # unprinted_designs = ['phone case', 'robot pendant', 'dodecahedron']
 # completed_models = []
 
-# # Simulate printing each design, until none are left.
-# # Move each design to completed_models after printing.
+# Simulate printing each design, until none are left.
+# Move each design to completed_models after printing.
 # while unprinted_designs:
 #     current_design = unprinted_designs.pop()
 #     print(f"Printing model: {current_design}")
@@ -13,7 +13,7 @@
 # for completed_model in completed_models:
 #     print(completed_model)
 
-# # reorganising code into 2 functions
+# reorganising code into 2 functions
 def print_models(unprinted_designs, completed_models):
     """
     Simulate printing each design, until none are left."

@@ -3,13 +3,13 @@ import json
 
 # username = input("What is your name? ")
 
-# path = Path('username.json')
+path = Path('username.json')
 # contents = json.dumps(username)
 # path.write_text(contents)
 
 # print(f"We'll remember you when you come back, {username}!")
 
-# # using if...else block
+# using if...else block
 # if path.exists():
 #     contents = path.read_text()
 #     username = json.loads(contents)

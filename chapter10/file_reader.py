@@ -7,6 +7,7 @@ path = Path('pi_digits.txt')
 
 # accessing a file's lines
 contents = path.read_text()
+# print(contents)
 lines = contents.splitlines()
 for line in lines:
     print(line)

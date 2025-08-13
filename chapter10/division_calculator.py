@@ -27,6 +27,6 @@ while True:
     else:
         print(answer)
 
-    # answer = int(first_number) / int(second_number)
-    # print(answer)
+#     # answer = int(first_number) / int(second_number)
+#     # print(answer)
 

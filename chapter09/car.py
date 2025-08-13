@@ -59,6 +59,9 @@ class Battery:
 # my_new_car.update_odometer(23)
 # my_new_car.read_odometer()
 
+# my_new_car.update_odometer(20)
+# my_new_car.read_odometer()
+
 # # incrementing attribute's value through a method
 # my_used_car = Car('subaru', 'outback', 2019)
 # print(my_used_car.get_descriptive_name())

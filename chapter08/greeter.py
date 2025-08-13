@@ -5,8 +5,7 @@
 # greet_user()
 
 # # passing information into a function
-def greet_user(username):
-    print(f"Hello {username}!")
+# def greet_user(username):
+#     print(f"Hello {username}!")
 
-greet_user("Jada")
-
+# greet_user("Jada")
